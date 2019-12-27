@@ -11,6 +11,8 @@ namespace WebApplicationMVC.Controllers
         // GET: Student
         public ActionResult Index()
         {
+
+
             return View();
             //return "This is Index action method of StudentController";
         }
