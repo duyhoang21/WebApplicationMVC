@@ -17,6 +17,7 @@ namespace WebApplicationMVC.Controllers
         // GET: Customers
         public ActionResult Index()
         {
+            //to  test commit from branch1frommaster
             return View(db.Customers.ToList());
         }
 
